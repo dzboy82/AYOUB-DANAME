@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 client.on('ready', () => {
-  client.user.setGame(`AFK `,'https://www.twitch.tv/dz27boy');
+  client.user.setGame(`ELDala3 `,'https://www.twitch.tv/ayoub_dz_09');
   console.log('---------------');
   console.log(' Bot Is Online')
   console.log('---------------')
