@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 client.on('ready', () => {
-  client.user.setGame(`القيصر العظيم الهارب من المدارس السبعة قاهر سكلولو و الكبوب صانع الترند باري `,'https://www.twitch.tv/dz27boy');
+  client.user.setGame(`القيصر العظيم `,'https://www.twitch.tv/dz27boy');
   console.log('---------------');
   console.log(' Bot Is Online')
   console.log('---------------')
@@ -11,7 +11,7 @@ client.on('message', message => {
 
     let args = message.content.split(' ').slice(1).join(' ');
      if(!message.channel.guild) return;
-if(message.content.split(' ')[0] == '*br4rrc') {
+if(message.content.split(' ')[0] == '*bc') {
          message.react("✔️")
           let embed = new Discord.RichEmbed()
     .setColor("#FF00FF")
