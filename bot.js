@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 client.on('ready', () => {
-  client.user.setGame(`off `,'https://www.twitch.tv/dz27boy');
+  client.user.setGame(`idk `,'https://www.twitch.tv/only_82');
   console.log('---------------');
   console.log(' Bot Is Online')
   console.log('---------------')
@@ -11,7 +11,7 @@ client.on('message', message => {
 
     let args = message.content.split(' ').slice(1).join(' ');
      if(!message.channel.guild) return;
-if(message.content.split(' ')[0] == '!bc') {
+if(message.content.split(' ')[0] == '***!idk') {
          message.react("✔️")
           let embed = new Discord.RichEmbed()
     .setColor("#FF00FF")
