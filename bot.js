@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 client.on('ready', () => {
-  client.user.setGame(`idk `,'https://www.twitch.tv/only_82');
+  client.user.setGame(`Idk `,'https://www.twitch.tv/only_82');
   console.log('---------------');
   console.log(' Bot Is Online')
   console.log('---------------')
